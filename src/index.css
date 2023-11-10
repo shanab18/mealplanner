@@ -1,0 +1,134 @@
+body {
+  background-image: url("bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #333; 
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+
+
+
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+button {
+  background-color: #ffb345;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #ff6600; 
+}
+
+/* Styling for Video Section */
+#video {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Styling for Recipe Section */
+#recipe {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Styling for Instructions Section */
+#instructions {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+/* Add these styles to your index.css or create a new CSS file */
+
+body {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+select, button {
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #ffb345;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffb345;
+}
+
+
+
+#ingredients ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#ingredients li {
+  margin-bottom: 8px;
+}
+
+#video a {
+  color: #3498db;
+}
+
+#video a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  color: #333;
+}
+p {
+  margin: 10px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+#area {
+  background-color: #ffb345;
+  color: white;
+  font-size: 24px;
+  padding: 20px;
+}
+#ingredients, #video, #instructions {
+  font-size: 18px;
+}

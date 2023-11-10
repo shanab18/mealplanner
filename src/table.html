@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planner</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            background-color: #ffb345;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+        table {
+            margin: 20px auto;
+            width: 80%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        table, th, td {
+            border: 1px solid #e6e6e6;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+        caption {
+            text-align: center;
+            font-size: 24px;
+            background-color: #ffb345;
+            color: white;
+            padding: 15px;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(odd) {
+            background-color: #e6e6e6;
+        }
+        button {
+            background-color: #ffb345;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: block;
+            margin: auto;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        button:hover {
+            background-color: #ff8c00;
+        }
+        button a {
+            color: white;
+            text-decoration: none;
+        }
+        button a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>MEAL PLANNER TABLE</h1>
+    <table>
+        <caption>MY MEAL PLANNER</caption>
+        <tr>
+            <th>Meal Name</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+        <tr id="h">
+         
+        </tr>
+    </table>
+    <button onclick="Mealplanner()"><a href="index.html">Home</a></button>
+    <script src="main.js"></script>
+</body>
+</html>
